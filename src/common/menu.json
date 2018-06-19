@@ -1,0 +1,39 @@
+[
+  {
+		"name": "首页",
+		"icon": "icon-house",
+		"url": "/index",
+		"hasChild": false
+	},
+	{
+		"name": "审批管理",
+		"icon": "icon-examine01",
+		"url": "/approval",
+		"hasChild": true,
+		"children": [
+			{
+				"name": "单位审批",
+				"url": "/approval/company",
+				"hasChild": false
+			},{
+				"name": "单位复审",
+				"url": "/approval/comReview",
+				"hasChild": false
+			},
+			{
+				"name": "职位审批",
+				"url": "/approval/job",
+				"hasChild": false
+			},{
+				"name": "职位复审",
+				"url": "/approval/jobReview",
+				"hasChild": false
+			},
+			{
+				"name": "域名审批",
+				"url": "/approval/domain",
+				"hasChild": false
+			}
+		]
+	}
+]
